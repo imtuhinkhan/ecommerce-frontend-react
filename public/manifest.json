@@ -1,0 +1,58 @@
+{
+  "name": "My Shop",
+  "short_name": "MSHOP",
+  "description": "MSHOP Ecommerce System",
+  "lang": "en-US",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "theme_color": "#E43023",
+  "background_color": "#FFFFFF",
+  "icons": [
+  {
+  "src":"images/72.png",
+  "sizes": "72x72",
+  "type": "image/png"
+  },
+  {
+  "src":"images/96.png",
+  "sizes": "88x88",
+  "type": "image/png"
+  },
+  {
+  "src":"images/120.png",
+  "sizes": "120x120",
+  "type": "image/png"
+  },
+  {
+  "src":"images/128.png",
+  "sizes": "128x128",
+  "type": "image/png"
+  },
+  {
+  "src":"images/144.png",
+  "sizes": "144x144",
+  "type": "image/png"
+  },
+  {
+  "src":"images/152.png",
+  "sizes": "152x152",
+  "type": "image/png"
+  },
+  {
+  "src":"images/180.png",
+  "sizes": "180x180",
+  "type": "image/png"
+  },
+  {
+  "src":"images/192.png",
+  "sizes": "196x196",
+  "type": "image/png"
+  },
+  {
+  "src":"images/512.png",
+  "sizes": "512x512",
+  "type": "image/png"
+  }
+  ]
+  }
