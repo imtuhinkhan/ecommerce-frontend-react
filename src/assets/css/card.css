@@ -1,0 +1,26 @@
+.card{
+}
+.image-box img{
+    transition: transform .3s;
+    max-width: 100%;
+    padding: 5%;
+    overflow: hidden;
+    margin: 0 auto;
+    transform: scale(1);
+
+}
+.image-box:hover img {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.card-style-2{
+padding: 20px;
+}
+.category-card-body{
+    padding: 0.25rem!important;
+}
+.category-col{
+    padding: 2px 1px!important;
+}

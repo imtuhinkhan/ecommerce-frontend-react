@@ -1,15 +1,18 @@
-import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee } from '@fortawesome/free-solid-svg-icons'
-import '../App.css';
+import React, {Component} from 'react';
+import FeaturedItem from "../components/home/FeaturedItem";
+import Categories from "../components/home/Categories";
+import MainSlider from "../components/home/MainSlider";
 
-function HomePage() {
-    return (
-        <div className="App">
-            <h1>MSHOP IS REACT + LARAVEL PWA ECOMMERCE APP m</h1>
-            <FontAwesomeIcon icon={faCoffee} />
-        </div>
-    );
+class HomePage extends Component {
+    render() {
+        return (
+            <>
+                <MainSlider/>
+                <FeaturedItem/>
+                <Categories/>
+            </>
+        );
+    }
 }
 
 export default HomePage;

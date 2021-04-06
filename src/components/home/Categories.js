@@ -1,11 +1,163 @@
 import React, {Component} from 'react';
+import {Card, Col, Container, Row} from "react-bootstrap";
 
 class Categories extends Component {
     render() {
         return (
-            <div>
-                
-            </div>
+                <>
+                    <Container fluid={true}>
+                        <p className='headline'>category product</p>
+                        <p className='sub-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <Row>
+                            <Col xl={6} lg={6} md={6} sm={6} xs={6}>
+                                <Row>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </Col>
+                            <Col xl={6} lg={6} md={6} sm={6} xs={6} >
+                                <Row>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                        <Row>
+                            <Col key={2} xl={6} lg={6} md={6} sm={6} xs={6}>
+                                <Row>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </Col>
+                            <Col xl={6} lg={6} md={6} sm={6} xs={6} >
+                                <Row>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                    <Col xl={3} lg={3} md={3} sm={6} xs={6} className="category-col">
+                                        <Card className="card-style-2">
+                                           <img className="w-100" alt="test"  src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"/>
+                                           <Card.Body className="category-card-body">
+                                                <p className="category-text"> category name</p>
+                                            </Card.Body>
+                                        </Card>
+                                    </Col>
+                                </Row>
+                            </Col>
+                        </Row>
+                    </Container>
+                </>
         );
     }
 }
