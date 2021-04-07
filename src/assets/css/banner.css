@@ -1,0 +1,36 @@
+.banner-1{
+    background-image: url("https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682552968813.png");
+    background-color: #100f0f!important;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 20px 1px!important;;
+
+}
+.banner-2{
+    background-image: url("../images/banner2.png");
+    background-color: #100f0f!important;
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 20px 1px!important;
+
+}
+.card-text-custom{
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: auto!important;
+    font-size: 50px;
+    font-family: 'Dela Gothic One';
+    opacity: 1!important;
+
+}
+
+.text-bg{
+    margin: auto!important;
+    background: black;
+    opacity: 0.5;
+    padding: 5px 20px;
+    width: 100%;
+}

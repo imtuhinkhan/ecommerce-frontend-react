@@ -1,0 +1,66 @@
+.nav-link{
+    font-family: 'Lato';
+    color: #ce142d!important;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    font-family: 'Lato';
+    color: #2196f3!important;
+    text-transform: uppercase;
+}
+.nav-link:active {
+    font-family: 'Lato';
+    color: #2196f3!important;
+    text-transform: uppercase;
+}
+.dropdown-item{
+    border-bottom: 1px solid #eceff1!important;
+}
+.sign-up-menu{
+    font-size: 10px;
+    color: black!important;
+    padding: 5px!important;
+}
+.modal-title{
+    text-transform: lowercase;
+    color: #1faae9;
+    font-size: 19px;
+}
+/*fontawsome*/
+
+.fa{
+    font-size: 20px!important;
+    padding: 2px;
+    cursor: pointer;
+}
+.faCart{
+    color:#6f42c1 ;
+}
+.faHeart{
+    color:#ce0e0e ;
+
+}
+.faNotification{
+    color:#ce0e0e ;
+
+}
+.faAccount{
+
+}
+.icons-menu{
+    justify-content: end!important;
+}
+@media (max-width: 992px) {
+    .icons-menu{
+        flex-direction: row!important;
+        justify-content: flex-start!important;
+    }
+    .fa{
+        font-size: 25px!important;
+        padding: 5px;
+    }
+    .sign-up-menu{
+        padding: 5px 0px 5px!important;
+    }
+}

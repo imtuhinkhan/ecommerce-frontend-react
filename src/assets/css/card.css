@@ -1,4 +1,5 @@
-.card{
+.card-box{
+    padding: 2px!important;
 }
 .image-box img{
     transition: transform .3s;

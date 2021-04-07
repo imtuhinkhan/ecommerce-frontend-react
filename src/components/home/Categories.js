@@ -6,8 +6,8 @@ class Categories extends Component {
         return (
                 <>
                     <Container fluid={true}>
-                        <p className='headline'>category product</p>
-                        <p className='sub-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                        <p className='headline'>Bike category </p>
+                        <p className='sub-text'>Chose one from the below categories that matches your personalities</p>
                         <Row>
                             <Col xl={6} lg={6} md={6} sm={6} xs={6}>
                                 <Row>

@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Pacifico&family=Teko:wght@300;400;700&family=Train+One&display=swap');
 @import "card.css";
 @import "navbar.css";
 @import "slider.css";
 @import "typo.css";
+@import "banner.css";
+@import "footer.css";

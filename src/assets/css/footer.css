@@ -1,0 +1,27 @@
+.footer{
+    background: #090909;
+    padding: 20px 10px;
+}
+.footer-col-1{
+
+}
+.footer-col-1 p{
+    padding: 0;
+    margin: 0;
+    color: #ffffff;
+    font-family: cursive;
+}
+.about-text-footer{
+    color: #db1527!important;
+    font-size: 16px;
+    text-align: justify;
+}
+.contact-text-footer{
+    color: white;
+    font-family: 'Dela Gothic One';
+}
+.ffa{
+    font-size: 50px;
+    color: white;
+    padding: 5px;
+}

@@ -1,10 +1,12 @@
 .headline{
     text-align: center;
-    font-size: 28px;
+    font-size: 40px;
     text-transform: uppercase;
-    font-family: Roboto;
+    font-family: Dela Gothic One!important;
+    letter-spacing: 8px;
+    font-weight: 600;
     margin: 0;
-    color: burlywood;
+    color: #d32f2fc7;
 }
 .sub-text{
     text-align: center;
