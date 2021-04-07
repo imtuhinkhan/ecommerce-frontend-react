@@ -33,9 +33,9 @@ class MainSlider extends Component {
                         <div>
                             <img alt="image-1"
                                  src="http://www.pngpix.com/wp-content/uploads/2016/07/PNGPIX-COM-Suzuki-GSX-R600-Motorcycle-Bike-PNG-Image-1.png"
-                                 className="big-carousel-image-center"
+                                 className="big-carousel-image-left"
                             />
-                            <h1 className='slider-text-3'>Upcoming Monster of Bangladesh <br/><span className='style3'>Suzuki GSXR 600</span></h1>
+                            <h1 className='slider-text'>Upcoming Monster<br/><span className='style1'>Suzuki GSXR 600</span></h1>
 
                         </div>
                     </Slider>

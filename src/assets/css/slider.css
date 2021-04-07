@@ -17,18 +17,18 @@
 .slider-text{
     margin: 150px auto;
     text-transform: uppercase;
-    font-family: fantasy;
+    font-family: lato;
 }
 .slider-text-2{
     margin: 150px auto;
     text-transform: uppercase;
-    font-family: fantasy;
+    font-family: lato;
     float: right;
 }
 
 .slider-text-3{
     text-transform: uppercase;
-    font-family: fantasy;
+    font-family: lato;
     text-align: center;
 }
 .style1{
@@ -44,22 +44,22 @@
     font-size: 45px;
 }
 
-@media only screen and (max-width: 1040px) {
+@media (max-width: 1040px) {
     .slider-text{
         margin: 131px 60px;
         text-transform: uppercase;
-        font-family: fantasy;
+        font-family: lato;
     }
     .slider-text-2{
         margin: 125px 60px;
         text-transform: uppercase;
-        font-family: fantasy;
+        font-family: lato;
     }
 
     .slider-text-3{
         margin: 131px 60px;
         text-transform: uppercase;
-        font-family: fantasy;
+        font-family: lato;
     }
 
     .style1{
@@ -76,89 +76,68 @@
     }
 }
 
-@media only screen and (max-width: 890px) {
+
+/*Media quries for slider 1*/
+@media (max-width: 1300px) {
+    .slider-text {
+        margin: 130px 60px;
+        text-transform: uppercase;
+        font-family: lato;
+    }
+    .style1 {
+        color: #ffa000d9;
+        font-size: 50px;
+    }
+}
+@media (max-width: 1000px) {
     .slider-text {
         margin: 70px 60px;
         text-transform: uppercase;
-        font-family: fantasy;
+        font-family: lato;
     }
-
-    .slider-text-2 {
-        margin: 70px 60px;
-        text-transform: uppercase;
-        font-family: fantasy;
-        float: left;
-    }
-
-    .slider-text-3 {
-        margin: 15px 60px;
-        text-transform: uppercase;
-        font-family: fantasy;
-    }
-
     .style1 {
         color: #ffa000d9;
         font-size: 45px;
     }
-
-    .style2 {
-        color: #ee1d07d9;
-        font-size: 36px;
+}
+@media (max-width: 905px) {
+    .slider-text {
+        margin: 70px 60px;
+        text-transform: uppercase;
+        font-family: lato;
     }
-
-    .style3 {
-        color: #1b6fa0;
-        font-size: 45px;
+    .style1 {
+        color: #ffa000d9;
+        font-size: 40px;
     }
 }
 
-@media only screen and (max-width: 758px) {
+@media (max-width: 821px) {
+     .style1 {
+        font-size: 35px;
+    }
+}
+
+@media (max-width: 758px) {
     .slider-text {
-        font-size: 15px;
+        font-size: 20px;
         margin: 70px 60px;
     }
     .style1 {
         font-size: 25px;
     }
-    .style2 {
-        color: #ee1d07d9;
-        font-size: 20px;
-    }
-
 }
-
-@media only screen and (max-width: 656px) {
+@media (max-width: 656px) {
     .slider-text {
         font-size: 20px;
         margin: 70px 60px;
     }
-
-    .slider-text-2 {
-        font-size: 15px;
-        margin: 65px 60px;
-        float: left;
-    }
-
-    .slider-text-3 {
-        font-size: 25px;
-        margin: 10px 60px;
-    }
-
     .style1 {
-        font-size: 30px;
-    }
-
-    .style2 {
-        font-size: 26px;
-    }
-
-    .style3 {
-        font-size: 45px;
+        font-size: 25px;
     }
 }
 
-@media only screen and (max-width: 540px) {
-
+@media (max-width: 570px) {
     .slider-text {
         font-size: 15px;
         margin: 60px 60px;
@@ -166,6 +145,86 @@
     .style1 {
         font-size: 20px;
     }
+}
+
+@media (max-width: 485px) {
+    .slider-text {
+        font-size: 10px;
+        margin: 30px 60px;
+    }
+    .style1 {
+        font-size: 13px;
+    }
+}
+@media (max-width: 385px) {
+    .slider-text {
+        font-size: 8px;
+        margin: 30px 60px;
+    }
+    .style1 {
+        font-size: 10px;
+    }
+}
+@media (max-width: 300px) {
+    .slider-text {
+        display: none;
+    }
+    .big-carousel-image-left{
+        float: none;
+    }
+}
+/*End Media quries for slider 1*/
+/* Media quries slider 2*/
+@media (max-width: 1290px) {
+    .slider-text-2 {
+        margin: 70px 60px;
+        text-transform: uppercase;
+        font-family: lato;
+        float: left;
+    }
+    .style2 {
+        color: #ee1d07d9;
+        font-size: 45px;
+    }
+}
+@media (max-width: 1024px) {
+    .slider-text-2 {
+        margin: 70px 60px;
+    }
+    .style2 {
+        font-size: 35px;
+    }
+}
+@media (max-width: 890px) {
+    .slider-text-2 {
+        float: left;
+        font-size: 20px;
+
+    }
+    .style2 {
+        color: #ee1d07d9;
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 758px) {
+    .style2 {
+        color: #ee1d07d9;
+        font-size: 20px;
+    }
+}
+@media (max-width: 670px) {
+    .slider-text-2 {
+        font-size: 15px;
+        margin: 65px 60px;
+        float: left;
+    }
+    .style2 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 575px) {
     .slider-text-2 {
         font-size: 10px;
         margin: -107px 60px;
@@ -177,36 +236,25 @@
     }
 
 }
-
-@media only screen and (max-width: 425px) {
-
-    .slider-text {
-        font-size: 10px;
-        margin: 30px 60px;
-    }
-    .style1 {
-        font-size: 8px;
-    }
+@media (max-width: 436px) {
     .slider-text-2 {
         font-size: 10px;
-        margin: -60px 60px;
-        float: left;
-    }
-    .slider-text-2 {
-        font-size: 5px;
-        margin: -60px 60px;
+        margin: -70px 60px;
         float: left;
     }
     .style2 {
         color: #ee1d07d9;
-        font-size: 10px;
+        font-size: 15px;
     }
-    .slider-text-3 {
-        font-size: 10px;
-    }
-    .style3 {
-        color: #ee1d07d9;
-        font-size: 10px;
-    }
-
 }
+@media (max-width: 300px) {
+    .slider-text-2 {
+        display: none;
+    }
+    .big-carousel-image-right{
+        float: none;
+        margin: auto;
+    }
+}
+/* end Media quries slider 2*/
+

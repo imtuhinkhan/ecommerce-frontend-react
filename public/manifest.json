@@ -1,7 +1,7 @@
 {
-  "name": "My Shop",
-  "short_name": "MSHOP",
-  "description": "MSHOP Ecommerce System",
+  "name": "BE BIKER",
+  "short_name": "BBIKER",
+  "description": "BBIKER-A online Bike selling platform",
   "lang": "en-US",
   "start_url": "/",
   "display": "standalone",
