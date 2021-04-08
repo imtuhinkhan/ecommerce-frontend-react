@@ -8,6 +8,8 @@
     overflow: hidden;
     margin: 0 auto;
     transform: scale(1);
+    cursor: pointer;
+
 
 }
 .image-box:hover img {
@@ -18,6 +20,23 @@
 
 .card-style-2{
 padding: 20px;
+}
+
+.card-style-2 img{
+    transition: transform .3s;
+    max-width: 100%;
+    padding: 5%;
+    overflow: hidden;
+    margin: 0 auto;
+    transform: scale(1);
+    cursor: pointer;
+
+
+}
+.card-style-2:hover img {
+    -ms-transform: scale(1.1); /* IE 9 */
+    -webkit-transform: scale(1.1); /* Safari 3-8 */
+    transform: scale(0.9);
 }
 .category-card-body{
     padding: 0.25rem!important;

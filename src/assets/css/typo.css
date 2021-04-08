@@ -8,6 +8,17 @@
     margin: 0;
     color: #d32f2fc7;
 }
+
+.headline2{
+    text-align: left;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: Lato;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin: 0;
+    color: #d32f2fc7;
+}
 .sub-text{
     text-align: center;
     font-family: Roboto;
@@ -20,4 +31,13 @@
     font-size: 13px;
     text-transform: uppercase;
     font-family: Roboto light;
+}
+
+.single-product-p{
+    font-size: 14px;
+    font-size: 18px;
+    text-align: justify;
+}
+.rating{
+    color: yellow;
 }

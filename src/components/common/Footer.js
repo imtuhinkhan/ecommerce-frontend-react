@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {Button, Col, Container, Form, FormControl, Row} from "react-bootstrap";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faPaperPlane} from '@fortawesome/free-solid-svg-icons'
-import {faFacebook, faInstagram, faTwitch, faTwitter} from "@fortawesome/free-brands-svg-icons";
+import {faFacebook, faInstagram, faTwitter} from "@fortawesome/free-brands-svg-icons";
 
 class Footer extends Component {
     render() {
@@ -41,6 +41,9 @@ class Footer extends Component {
 
                             </div>
                         </Col>
+                    </Row>
+                    <Row>
+                        <Col className='footer-c'>All right reserve to bebiker@2021</Col>
                     </Row>
                 </Container>
             </>

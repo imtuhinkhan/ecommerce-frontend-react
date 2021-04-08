@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
-import {Button, Card, Col, Container, Row,} from "react-bootstrap";
+import { Card, Col, Container, Row,} from "react-bootstrap";
+import {Link} from "react-router-dom";
 
 class FeaturedItem extends Component {
     render() {
@@ -10,18 +11,20 @@ class FeaturedItem extends Component {
                     <p className='sub-text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
                     <Row>
                         <Col className="card-box" xl={2} lg={2} md={2} sm={4} xs={6}>
-                            <Card className="image-box">
-                                <img variant="top" src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682552968813.png"/>
-                                <Card.Body>
-                                    <Card.Title>SUZUKI GSXR 150 </Card.Title>
-                                    <Card.Text>Price:379990</Card.Text>
-                                </Card.Body>
-                            </Card>
+                            <Link to={"/product-details"}>
+                                <Card className="image-box">
+                                    <img variant="top" src="./images/demo.png"/>
+                                    <Card.Body>
+                                        <Card.Title>SUZUKI GSXR 150 </Card.Title>
+                                        <Card.Text>Price:379990</Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            </Link>
                         </Col>
 
                         <Col className="card-box" xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card className="image-box">
-                                <img variant="top" src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682552968813.png"/>
+                                <img variant="top" src="./images/demo.png"/>
                                 <Card.Body>
                                     <Card.Title>SUZUKI GSXR 150 </Card.Title>
                                     <Card.Text>Price:379990</Card.Text>
@@ -31,7 +34,7 @@ class FeaturedItem extends Component {
 
                         <Col className="card-box"  xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card className="image-box">
-                                <img variant="top" src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682552968813.png"/>
+                                <img variant="top" src="./images/demo.png"/>
                                 <Card.Body>
                                     <Card.Title>SUZUKI GSXR 150 </Card.Title>
                                     <Card.Text>Price:379990</Card.Text>
@@ -41,7 +44,7 @@ class FeaturedItem extends Component {
 
                         <Col className="card-box"  xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card className="image-box">
-                                <img variant="top" src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682552968813.png"/>
+                                <img variant="top" src="./images/demo.png"/>
                                 <Card.Body>
                                     <Card.Title>SUZUKI GSXR 150 </Card.Title>
                                     <Card.Text>Price:379990</Card.Text>
@@ -51,7 +54,7 @@ class FeaturedItem extends Component {
 
                         <Col className="card-box"  xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card className="image-box">
-                                <img variant="top" src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682552968813.png"/>
+                                <img variant="top" src="./images/demo.png"/>
                                 <Card.Body>
                                     <Card.Title>SUZUKI GSXR 150 </Card.Title>
                                     <Card.Text>Price:379990</Card.Text>
@@ -61,7 +64,7 @@ class FeaturedItem extends Component {
 
                         <Col className="card-box" xl={2} lg={2} md={2} sm={4} xs={6}>
                             <Card  className="image-box">
-                                <img variant="top" src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682552968813.png"/>
+                                <img variant="top" src="./images/demo.png"/>
                                 <Card.Body>
                                     <Card.Title>SUZUKI GSXR 150 </Card.Title>
                                     <Card.Text>Price:379990</Card.Text>

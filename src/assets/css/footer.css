@@ -25,3 +25,11 @@
     color: white;
     padding: 5px;
 }
+
+.footer-c{
+    background: brown;
+    color: #ffffff;
+    font-family: 'lato';
+    text-align: center;
+    padding: 10px 5px;
+}

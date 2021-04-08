@@ -1,7 +1,9 @@
 import React, {Component} from 'react';
 import {Card, Container} from "react-bootstrap";
 import Slider from "react-slick";
-class BrandSlider extends Component {
+import {Link} from "react-router-dom";
+
+class RecentProduct extends Component {
     render() {
         let settings = {
             dots: true,
@@ -42,17 +44,19 @@ class BrandSlider extends Component {
         return (
             <>
                 <Container fluid={true}>
-                    <p className='headline'>BRANDS </p>
+                    <p className='headline'>Recent Product </p>
                     <p className='sub-text'>Chose one from the below categories that matches your personalities</p>
                     <div>
-                            <Slider {...settings}>
+                        <Slider {...settings}>
                             <div>
-                                <Card className="card-style-2">
-                                    <img className="w-100" alt="test"  src="/images/brands/yamaha.png"/>
-                                    <Card.Body className="category-card-body">
-                                        <p className="category-text"> yamaha</p>
-                                    </Card.Body>
-                                </Card>
+                                <Link to={'/product-details'}>
+                                    <Card className="card-style-2">
+                                        <img className="w-100" alt="test"  src="/images/brands/yamaha.png"/>
+                                        <Card.Body className="category-card-body">
+                                            <p className="category-text"> yamaha</p>
+                                        </Card.Body>
+                                    </Card>
+                                </Link>
                             </div>
                             <div>
                                 <Card className="card-style-2">
@@ -118,4 +122,4 @@ class BrandSlider extends Component {
     }
 }
 
-export default BrandSlider;
+export default RecentProduct;

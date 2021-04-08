@@ -258,3 +258,10 @@
 }
 /* end Media quries slider 2*/
 
+/*//single page product slider*/
+  .productSlider{
+      padding: 10px;
+  }
+  .slick-arrow{
+      background: red;
+  }

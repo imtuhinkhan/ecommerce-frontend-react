@@ -19,14 +19,14 @@ class MainSlider extends Component {
                     <Slider {...settings}>
                         <div>
                             <img alt="image-1"
-                                 src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682555276344.png"
+                                 src="./images/demo2.png"
                                  className="big-carousel-image-left"
                             />
                             <h1 className='slider-text'>The All New <br/><span className='style1'>Suzuki GSXR 150</span><br/> with ABS</h1>
                         </div>
                         <div>
                             <img alt="image-1"
-                                 src="https://suzuki.com.bd/images/bike_models/variant_color_images/variant_color_image__160682552968813.png"
+                                 src="./images/demo.png"
                                  className="big-carousel-image-right"
                             />
                             <h1 className='slider-text-2'>The All New <br/><span className='style2'>Suzuki GSXR 150</span><br/> with ABS</h1>
